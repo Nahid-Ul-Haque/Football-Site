@@ -123,3 +123,52 @@ footer styles
     display: flex;
     justify-content: center;
 }
+/*------------------- 
+Media Queries 
+--------------------*/
+/*---------------------
+ Mobile devices
+ -------------------------*/
+ @media only screen and (max-width: 582px){
+    .space{
+        display: flex;
+        grid-template-rows: repeat(1, 1fr);
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .football{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .football-name{
+        margin-bottom: 20px;
+    }
+    .football-player{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        justify-content: center;
+
+    }
+    .football-info{
+        width: 80%;
+        margin-left: 0;
+        margin-right: 250px;
+    }
+    .sponsor-name{
+        margin-bottom: 20px;
+        margin-right: 90px; 
+    }
+    .sponsor-image{
+        display: grid;
+        margin-left: 100px;
+        margin-right: 150px;
+
+    }
+    .footer-image img{
+        display: grid;
+        margin-left: 15px;
+        width: 70%;
+    }
+ }
