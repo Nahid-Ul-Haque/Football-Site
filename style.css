@@ -1,0 +1,125 @@
+/*---- styles -------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*---------- 
+header
+-----------*/
+.head{
+    background-color:#2D25A0;
+    padding: 100px 100px;
+    margin-bottom: 70px;
+}
+.up{
+    margin-bottom: 67px;
+}
+.space{
+    justify-content: space-between;
+    display: flex;
+}
+span a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+.login{
+    background-color: #E02C6D;
+    padding: 15px 24px;
+    color: whitesmoke;
+}
+/*-------- 
+common styles
+---------- */
+body{
+    margin: 0%;
+}
+.football{
+    display: flex;
+    justify-content: space-between;
+}
+.football-name h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: whitesmoke;
+    margin-bottom: 27px;
+    margin-top: 0%;
+}
+.football-name h1:hover{
+    color:gold;
+}
+.football-name a{
+    text-decoration: none;
+    padding: 15px 24px;
+    background-color: #E02C6D;
+    color: whitesmoke;
+}
+.football-name a:hover{
+    background-color: darkorange;
+    color: black;
+}
+.fa-arrow-right{
+    margin-left: 8px;
+}
+/*------- player styles -------------*/
+.container{
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 80px;
+}
+.football-player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.football-info{
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin: 30px;
+    box-shadow: 5px 5px 15px gray;
+}
+.football-info .player-image img{
+    Width: 300px;
+    Height: 256px;
+    width: 100%;
+}
+/*--------- 
+sponsor styles
+----------- */
+.sponsor-name h2{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(196, 196, 196);
+    margin-bottom: 0px;
+}
+.sponsor-image{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+.sponsor-image img{
+    height: 35%;
+    width: 100%;
+}
+/*-------------- 
+footer styles 
+--------------*/
+.footer-image img{
+    height: 110px;
+    width: 483.87px;
+    margin-left: 400px;
+}
+.footer-end{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.footer-end img{
+    height: 32px;
+    width: 50px;
+    margin-right: 15px;   
+}
+.small{
+    display: flex;
+    justify-content: center;
+}
